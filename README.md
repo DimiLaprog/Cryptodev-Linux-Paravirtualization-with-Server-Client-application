@@ -16,4 +16,5 @@ Frontend driver was implemented in the guest os kernel (host userspace) and used
 It is implemented in HOST OS and it is running as a process(QEMU-KVM supervisor). Here we implement the actual system calls to /cryptodev in order to encrypt/decrypt our data. The corresponding system calls used are bind to virtqueue of the crypto dev as "pop", to acquire the first virtqueue element and "push" to return the data requested to the virt ring.
 # Authors:
 Dimitrios Lampros 
+
 Giannis Giortzis
